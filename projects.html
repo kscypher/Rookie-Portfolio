@@ -1,0 +1,117 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Projects</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #1a1a1a, #333333);
+            color: white;
+        }
+        header {
+            background: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav a {
+            margin: 0 10px;
+            color: #00bcd4;
+            text-decoration: none;
+        }
+        nav a.active, nav a:hover {
+            text-decoration: underline;
+        }
+        section.projects {
+            padding: 40px 20px;
+            text-align: center;
+            min-height: 100vh;
+        }
+        .project {
+            background: rgba(255, 255, 255, 0.1);
+            margin: 20px auto;
+            padding: 20px;
+            width: 80%;
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+            text-align: left;
+            line-height: 1.8;
+            color: white;
+        }
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        @media (max-width: 768px) {
+            .project {
+                width: 95%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">Ankith</a>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="service.html">Service</a>
+            <a href="projects.html" class="active">Projects</a>
+            <a href="#">Education</a>
+            <a href="#">Experience</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <section class="projects">
+        <h1>Projects</h1>
+        <div class="project">
+            <h2>Smart Attendance System using FRS</h2>
+            <h3>The Smart Attendance System Using FRS is a face recognition-based attendance system designed
+                to automate attendance marking efficiently. Unlike traditional manual methods, which are 
+                time-consuming and error-prone, this system eliminates proxy attendance and reduces 
+                queue-based delays. It utilizes OpenCV for image capture, face_recognition for processing, and tkinter 
+                for an interactive GUI. The system stores face data using Pickle for future recognition and 
+                integrates a custom utility module for streamlined operations. This project enhances 
+                security, improves efficiency, and modernizes attendance tracking in various sectors.</h3>
+        </div>
+        <div class="project">
+            <h2>Hovering Periodic Table</h2>
+            <h3>The Periodic Table project, developed using Vanilla JavaScript on HatchXR.com, provides an 
+                interactive experience by displaying atomic details such as name, number, weight, and 
+                family. It uses event listeners to enhance user interaction, highlighting elements when 
+                hovered over and updating relevant information in real time. The project ensures a smooth 
+                and dynamic UI by adjusting element opacity for visual effects. By leveraging 
+                JavaScript's DOM manipulation, it provides instant feedback, making the periodic table an 
+                educational and visually appealing tool.</h3>
+        </div>
+        <div class="project">
+            <h2>Bounce Tales</h2>
+            <h3>The Bouncing Ball Game is an engaging, fast-paced browser-based arcade game developed using 
+                JavaScript and p5.js. The player controls a bar at the bottom of the canvas to bounce 
+                balls and prevent them from falling off the screen. As balls bounce off walls, the ceiling, 
+                and the bar, they duplicate at an increased speed, making the game progressively harder and 
+                increasing the score. The bar shrinks over time, adding to the challenge. Points are earned 
+                for successful bounces, and the game ends when all balls drop below the bar. Features 
+                include dynamic speed adjustments, object-oriented design with a `Ball` class, responsive 
+                controls, and smooth collision detection. Future improvements include power-ups, sound 
+                effects, mobile touch support, and visual enhancements.</h3>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 My Portfolio</p>
+    </footer>
+</body>
+</html>

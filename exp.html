@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Experience - Ankith's Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #1a1a1a, #333333);
+            color: white;
+        }
+        header {
+            background: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        header .logo {
+            font-size: 28px;
+            font-weight: bold;
+            text-decoration: none;
+            color: #00bcd4;
+        }
+        nav a {
+            margin: 0 15px;
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav a.active, nav a:hover {
+            color: #00bcd4;
+        }
+        section.experience {
+            padding: 40px 20px;
+            min-height: 100vh;
+            text-align: center;
+        }
+        .experience-card {
+            background: rgba(255, 255, 255, 0.1);
+            margin: 20px auto;
+            padding: 20px;
+            width: 80%;
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+            text-align: center;
+        }
+        .experience-card img {
+            width: 100%;
+            max-width: 600px;
+            height: auto;
+            border-radius: 10px;
+            margin-bottom: 15px;
+        }
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+
+        /* Enhanced media query for better responsiveness */
+        @media (max-width: 768px) {
+            .experience-card {
+                width: 95%;
+                padding: 15px;
+            }
+            .experience {
+                padding: 20px;
+            }
+            nav a {
+                font-size: 14px;
+                padding: 5px;
+            }
+            .logo {
+                font-size: 22px;
+            }
+            header {
+                padding: 10px;
+            }
+            footer {
+                padding: 5px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">Ankith</a>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="service.html">Service</a>
+            <a href="projects.html">Projects</a>
+            <a href="edu.html">Education</a> 
+            <a href="exp.html" class="active">Experience</a> 
+            <a href="contact.html">Contact Me</a>
+        </nav>
+    </header>
+
+    <section class="experience">
+        <h1>My Experience</h1>
+        
+        <!-- Web Development Experience -->
+        <div class="experience-card">
+            <h3>Web Development Intern - Bharat Intern</h3>
+            <img src="images/webdev_intern.png" alt="Web Development Internship">
+            <p>Contributed to web development projects, honing skills in frontend and backend technologies, ensuring responsive and user-friendly designs.</p>
+        </div>
+
+        <!-- AI/ML Experience -->
+        <div class="experience-card">
+            <h3>AI/ML Enthusiast - Personal Projects</h3>
+            <img src="images/ai_ml_projects.png" alt="AI/ML Projects">
+            <p>Engaged in machine learning projects, applying Python, MySQL, and ML frameworks to solve real-world problems and gain practical experience.</p>
+        </div>
+
+        <!-- Content Writing Experience -->
+        <div class="experience-card">
+            <h3>Content Writer - Freelance</h3>
+            <img src="images/content_writer_exp.png" alt="Content Writing">
+            <p>Crafted engaging and informative content for diverse digital platforms, enhancing SEO rankings and audience engagement.</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 My Portfolio</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Contact Me - Ankith's Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #1a1a1a, #333333);
+            color: white;
+        }
+        header {
+            background: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        header .logo {
+            font-size: 28px;
+            font-weight: bold;
+            text-decoration: none;
+            color: #00bcd4;
+        }
+        nav a {
+            margin: 0 15px;
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav a.active, nav a:hover {
+            color: #00bcd4;
+        }
+        section.contact {
+            padding: 40px 20px;
+            min-height: 100vh;
+            text-align: center;
+        }
+        .contact-details {
+            background: rgba(255, 255, 255, 0.1);
+            margin: 20px auto;
+            padding: 20px;
+            width: 80%;
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+            text-align: left;
+            line-height: 1.8;
+        }
+        .contact-details a {
+            color: #00bcd4;
+            text-decoration: none;
+        }
+        .contact-details a:hover {
+            text-decoration: underline;
+        }
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        @media (max-width: 768px) {
+            .contact-details {
+                width: 95%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">Ankith</a>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="service.html">Service</a>
+            <a href="projects.html">Projects</a>
+            <a href="#">Education</a>
+            <a href="#">Experience</a>
+            <a href="contact.html" class="active">Contact Me</a>
+        </nav>
+    </header>
+
+    <section class="contact">
+        <h1>Contact Me</h1>
+        <div class="contact-details">
+            <h2>Let's Connect!</h2>
+            <h3><strong>Email address:</strong> sriankith.k@gmail.com</h3>
+            <h3><strong>GitHub:</strong> <a href="https://github.com/kscypher" target="_blank">kscypher</a></h3>
+            <h3><strong>Contact:</strong> +91 9491044982</h3>
+            <div class="social-icons" style="text-align: center; margin-top: 20px;">
+                <a href="https://www.linkedin.com/in/sri-ankith-konduru-010280221/"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/kscypher"><i class="fa-brands fa-github"></i></a>
+                <a href="https://x.com/KS_Imaginator"><i class="fa-brands fa-x-twitter"></i></a>
+                <a href="https://www.instagram.com/sriankith_ks/"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 My Portfolio</p>
+    </footer>
+</body>
+</html>
